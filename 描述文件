@@ -7,6 +7,8 @@ treeTable.render({
 					icon_key: 'title',
 					//是否开启多选,默认false
 					is_checkbox: true,
+					//是否必须点击前面展开收缩的icon才可以展开收缩级,默认false[点击整行都可以]
+					is_click_icon: true,
 					//默认选择'id'参数为[0,1,4,10,11,5,2,6,7,3,8,9]的行
 					checked: {
 						key: 'id',
